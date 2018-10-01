@@ -3,10 +3,11 @@
 }
 
 .mock-image {
-    height: 50px;
-    width: 50px;
+    height: 100px;
+    width: 100px;
     border: 2px solid gray;
     background: darkslategray;
+    display: inline-block;
 }
 
 .project-link {
