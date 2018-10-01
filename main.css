@@ -26,8 +26,8 @@ footer {
     text-align: left;
 }
 
-ul, 
-li {
+nav ul, 
+nav li {
     list-style: none;
     display: inline-block;
 }
@@ -40,4 +40,9 @@ section {
 
 section:nth-child(even) {
     background-color: darkgray;
+}
+
+form ul,
+form li {
+    list-style: none;
 }
