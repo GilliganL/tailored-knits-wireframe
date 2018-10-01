@@ -10,7 +10,7 @@ body {
 nav,
 footer {
     background-color: silver;
-    padding: 5px 0;
+    padding: 5px 20px;
 }
 
 nav {
@@ -22,8 +22,12 @@ nav {
     text-align: right;
 }
 
-nav ul, 
-nav li {
+footer {
+    text-align: left;
+}
+
+ul, 
+li {
     list-style: none;
     display: inline-block;
 }
