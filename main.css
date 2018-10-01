@@ -32,6 +32,13 @@ nav li {
     display: inline-block;
 }
 
+header {
+    min-height: 200px;
+}
+
+main {
+    margin-top: 75px;
+}
 section {
     min-height: 250px;
     padding: 10px 0;
