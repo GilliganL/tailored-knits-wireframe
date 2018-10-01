@@ -1,2 +1,15 @@
+.project {
+    border: 2px solid black;
+}
 
+.mock-image {
+    height: 50px;
+    width: 50px;
+    border: 2px solid gray;
+    background: darkslategray;
+}
 
+.project-link {
+    color: blue;
+    text-decoration: underline;
+}
