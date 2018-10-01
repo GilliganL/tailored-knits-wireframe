@@ -3,6 +3,30 @@
 }
 
 body {
-    background: lightgray;
-    font-size: 12px;
+    text-align: center;
+    color: black;
+}
+
+nav,
+footer {
+    background-color: silver;
+    padding: 5px 0;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+
+section {
+    height: 250px;
+    padding: 10px 0;
+    background-color: lightgray;
+}
+
+section:nth-child(even) {
+    background-color: darkgray;
 }
