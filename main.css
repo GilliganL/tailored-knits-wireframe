@@ -4,7 +4,7 @@
 
 body {
     text-align: center;
-    color: black;
+    color:purple;
 }
 
 nav,
@@ -19,6 +19,12 @@ nav {
     left: 0;
     right: 0;
     z-index: 100;
+}
+
+nav ul, 
+nav li {
+    list-style: none;
+    display: inline-block;
 }
 
 section {
